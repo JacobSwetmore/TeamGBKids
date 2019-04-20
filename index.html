@@ -1,0 +1,157 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Team GB</title>
+    <meta name="description" content="Team GB">
+    <meta name="Team GB" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <ul style="z-index: 999;">
+
+            <li class="floatright1" style="float:right"><a href="#paragraph1">Shop</a></li>
+            <li class="floatright2" style="float:right"><a href="#home">Videos</a></li>
+            <li class="floatright3" style="float:right"><a href="#news">Athletes</a></li>
+            <li class="floatright4" style="float:right"><a href="#contact">News</a></li>
+
+            <li><a style="z-index: 999;" id="logolink" href="#about"><img id="logo" src="images/crest.png"
+                        alt="TEAM GB LOGO"></a></li>
+            <li><a class="active" href="#about">Team GB</a></li>
+            <div id="headerbackground"></div>
+        </ul>
+    </nav>
+
+
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:80px; font-weight:black;">Team GB!</h1>
+            <h2 style="font-size:30px;  letter-spacing: 2px;">Welcome to the official Team GB website. The Great Britain
+                and Northern
+                Ireland
+                Olympic Team run by the British Olympic Association.
+            </h2>
+            <a href="#paragraph1" class="DiscoverButton">SEE MORE!</a>
+
+        </div>
+
+    </div>
+
+    <div id="paragraph1" class="row paragraph">
+        <div class="column">
+            <h1 style="font-family: 'Fredoka One', cursive;">About Team GB.</h1>
+            <p style="font-size: 25px; font-weight: 200;">Team GB is the brand name used since 1999 by the British Olympic Association (BOA) for their Great
+                Britain
+                and Northern Ireland Olympic team. The brand was developed after the 1996 Summer Olympics, and is now a
+                trademark of the BOA. It is meant to unify the team as one body, irrespective of each member athlete's
+                particular sport. It forms part of a marketing strategy, where its brevity is seen as beneficial. </p>
+        </div>
+        <div class="column">
+            <a href="gallery.html">
+                <div id="gallery">
+                    <img id="trainingimage" src="images/trainingblue.jpg" alt="training ground">
+                    <p style="font-size: 20px;" id="gallerytext">Look at our photos!</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="paragraph">
+        <h1 style="font-family: 'Fredoka One', cursive;">Athletes.</h1>
+        <div class="athletes">
+
+            <div class="card">
+                <img src="images/Anthony.png" alt="Avatar" style="width: 100%">
+                <div class="container">
+                    <h4><b>Anthony Joshua</b></h4>
+                    <p>Boxer</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Mo.png" alt="Avatar" style="width: 100%">
+                <div class="container">
+                    <h4><b>Mo Farah</b></h4>
+                    <p>Runner</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Zoey.png" alt="Avatar" style="width: 100%">
+                <div class="container">
+                    <h4><b>Zoey Clark</b></h4>
+                    <p>Sprinter</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Duncan.png" alt="Avatar" style="width: 100%">
+                <div class="container">
+                    <h4><b>Duncan Scott</b></h4>
+                    <p>Swimmer</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="images/Cross.png" alt="Avatar" style="width: 100%">
+                <div class="container">
+                    <h4><b>View More Atheletes</b></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="paragraph">
+        <h1 style="font-family: 'Fredoka One', cursive;">News.</h1>
+        <div id="anthonynews" class="newsitems">
+            <a style="background-image: url(anthonynews.png);" class="newsitem" href="news1">Anthony Joshua <br>wins
+                title.</a>
+        </div>
+        <div id="cracknellnews" class="newsitems">
+            <a style="background-image: url(cracknellnews.png);" class="newsitem" href="cracknellnewsstory.html">Age no
+                limit as
+                victorious <br>Cracknell makes Boat Race history.</a>
+        </div>
+        <div id="cracknellnews" class="newsitems">
+            <a style="background-image: url(middletonnews.png);" class="newsitem" href="news3">Four-time Olympian
+                <br>Middleton calls it quits.</a>
+        </div>
+        <div id="cracknellnews" class="newsitems">
+            <a style="background-image: url(morenews.png);" class="newsitem" href="news">More <br>News...</a>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer-container">
+            <div> <img id="bluecrest" src="images/crestblue.png" alt="TEAM GB BLUE CREST">
+                <h1 class="footertext">TEAM GB</h1>
+                <h1 id="footertext2" class="footertext"><b>BELIEVE</b> EXTRAORD<b>IN</b>ARY</h1>
+            </div>
+            <div> <a style="font-size: 30px;" href="#" class="fa fa-facebook"></a>
+                <a style="font-size: 30px;" href="#" class="fa fa-twitter"></a>
+                <a style="font-size: 30px;" href="#" class="fa fa-youtube"></a>
+                <a style="font-size: 30px;" href="#" class="fa fa-instagram"></a>
+
+            </div>
+        </div>
+    </div>
+    <script> </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () { // check if scroll event happened
+                if ($(document).scrollTop() > 720) { // check if user scrolled more than 50 from top of the browser window
+                    $("#headerbackground").addClass('nav-coloured');
+                    console.log("1");
+                } else {
+                    $("#headerbackground").removeClass('nav-coloured'); // if not, change it back to transparent
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
